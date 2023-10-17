@@ -15,6 +15,7 @@ require("lazy").setup({
 	"ellisonleao/gruvbox.nvim",
 	{ "nvim-treesitter/nvim-treesitter", build = ":TSUpdate" },
 	"nvim-treesitter/playground",
+	"nvim-treesitter/nvim-treesitter-context",
 	{ "stevearc/conform.nvim", opts = {} },
 	{ "VonHeikemen/lsp-zero.nvim", branch = "v3.x" },
 	{ "neovim/nvim-lspconfig" },
