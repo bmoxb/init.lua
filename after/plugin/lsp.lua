@@ -12,6 +12,7 @@ lsp_zero.setup_servers({
 	"hls",
 	"ocamllsp",
 	"pyright",
+	"texlab",
 })
 
 local cmp = require("cmp")
