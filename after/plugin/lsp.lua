@@ -4,7 +4,15 @@ lsp_zero.on_attach(function(client, bufnr)
 	lsp_zero.default_keymaps({ buffer = bufnr })
 end)
 
-lsp_zero.setup_servers({ "clangd", "lua_ls", "rust_analyzer", "gopls", "hls", "ocamllsp" })
+lsp_zero.setup_servers({
+	"clangd",
+	"lua_ls",
+	"rust_analyzer",
+	"gopls",
+	"hls",
+	"ocamllsp",
+	"pyright",
+})
 
 local cmp = require("cmp")
 

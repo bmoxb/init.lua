@@ -9,5 +9,6 @@ require("conform").setup({
 		rust = { "rustfmt" },
 		go = { "gofmt" },
 		ocaml = { "ocamlformat" },
+		tex = { "latexindent" },
 	},
 })
